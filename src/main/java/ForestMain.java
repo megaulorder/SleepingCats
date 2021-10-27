@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
-public class Main {
+public class ForestMain {
 
     public static void main(String[] args) throws InterruptedException {
         final HashMap<Resource, Long> resources = new HashMap<Resource, Long>() {{

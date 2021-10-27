@@ -62,7 +62,7 @@ public class Forest {
                         if (stop.value && queue.isEmpty())
                             break;
 
-                        if (queue.isEmpty())
+                        while (queue.isEmpty())
                             checkQueue.await();
 
                         Task selectedTask = null;
