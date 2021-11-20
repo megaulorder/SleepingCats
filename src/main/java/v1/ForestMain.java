@@ -1,3 +1,8 @@
+package v1;
+
+import common.Resource;
+import common.Task;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;

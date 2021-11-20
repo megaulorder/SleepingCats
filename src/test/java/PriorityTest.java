@@ -1,5 +1,8 @@
+import common.Resource;
+import common.Task;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import v1.Forest;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,6 +15,8 @@ public class PriorityTest {
     static final String LOW_PRIORITY_MESSAGE = "42 cats are sleeping for 2s";
 
     String output = "";
+
+    Resource resource;
 
     public final static HashMap<Resource, Long> resources = new HashMap<Resource, Long>() {{
         put(Resource.CATS, 42L);
